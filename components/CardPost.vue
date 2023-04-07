@@ -6,7 +6,7 @@
 
     <p class="mb-3">{{post.descricao}}</p>
 
-    <button class="text-orange-500">ver mais -></button>
+    <router-link :to="`post/${post.id}`"  class="text-orange-500 cursor-pointer">ver mais -></router-link >
 
 
 </article>
